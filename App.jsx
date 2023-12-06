@@ -16,9 +16,9 @@ class App extends React.Component {
             <button id="divide" onClick={() => this.props.updateDisplay('/')}>/</button>
           </div>
           <div className="row">
-            <button id="four" onClick={() => this.props.updateDisplay('4')}>4</button>
-            <button id="five" onClick={() => this.props.updateDisplay('5')}>5</button>
-            <button id="six" onClick={() => this.props.updateDisplay('6')}>6</button>
+            <button id="four" onClick={() => this.props.updateDisplay('4')}>44</button>
+            <button id="five" onClick={() => this.props.updateDisplay('5')}>55</button>
+            <button id="six" onClick={() => this.props.updateDisplay('6')}>66</button>
             <button id="multiply" onClick={() => this.props.updateDisplay('*')}>*</button>
           </div>
           <div className="row">
@@ -32,6 +32,9 @@ class App extends React.Component {
             <button id="decimal" onClick={() => this.props.updateDisplay('.')}>.</button>
             <button id="equals" onClick={() => this.props.updateDisplay('=')}>=</button>
             <button id="add" onClick={() => this.props.updateDisplay('+')}>+</button>
+            <button>Seno</button>
+            <button>Conseno</button>
+            <button>Tangente</button>
           </div>
         </div>
         <button id="clear" onClick={() => this.props.clearDisplay()}>Clear</button>
